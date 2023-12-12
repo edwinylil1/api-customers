@@ -42,7 +42,7 @@
     APP_DEBUG=true // cambiar a false luego de instalar
     QUEUE_CONNECTION=database  // para activar las colas en la base de datos
         
-# Parámetros para correo de prueba, deben crear cuenta en mailtrap para agregar su username y password
+# Parámetros para correo de prueba, deben crear cuenta en mailtrap para agregar su username y password o emplear otro proveedor a su elección
 
 	MAIL_MAILER=smtp
 	MAIL_HOST=smtp.mailtrap.io
@@ -80,7 +80,7 @@
 
     php artisan config:cache 
 	
-##  Borrar y cargar la caché de ruta de Laravel	
+##  Cargar la caché de ruta de Laravel	
     
     php artisan route:cache 
 
